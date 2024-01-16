@@ -53,8 +53,7 @@
 
     <style name="ToolBarStyle" parent="Widget.MaterialComponents.Toolbar">
         <item name="fontFamily">sans-serif-medium</item>
-        <item name="android:textSize">@dimen/display_h0_text_size</item>
-        <item name="android:textColor">@color/gray_700</item>
+        <item name="android:textSize">@dimen/display_h1_text_size</item>
     </style>
 
 </resources>

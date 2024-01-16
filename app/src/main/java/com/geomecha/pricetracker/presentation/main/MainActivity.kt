@@ -26,7 +26,6 @@ class MainActivity : AppCompatActivity(), BottomNavigationView.OnNavigationItemS
         installSplashScreen()
 
         super.onCreate(savedInstanceState)
-
     }
 
     override fun onStart() {
@@ -45,6 +44,18 @@ class MainActivity : AppCompatActivity(), BottomNavigationView.OnNavigationItemS
 
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
-        return true
+        return when (item.itemId) {
+            R.id.homeFragment -> {
+                navController.navigate(R.id.homeFragment)
+                binding.toolBar.title = getString(R.string.home)
+                true
+            }
+            R.id.favouritesFragment -> {
+                navController.navigate(R.id.favouritesFragment)
+                binding.toolBar.title = getString(R.string.favourites)
+                true
+            }
+            else -> false
+        }
     }
 }
