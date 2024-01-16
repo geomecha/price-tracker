@@ -1,19 +1,9 @@
 package com.geomecha.pricetracker.presentation.favourites
 
-import android.os.Bundle
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
-import androidx.fragment.app.Fragment
-import com.geomecha.pricetracker.R
+import com.geomecha.pricetracker.core.base.presentation.BaseFragment
+import com.geomecha.pricetracker.databinding.FragmentFavouritesBinding
 
-class FavouritesFragment : Fragment() {
+class FavouritesFragment : BaseFragment<FragmentFavouritesBinding>(FragmentFavouritesBinding::inflate) {
 
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        return inflater.inflate(R.layout.fragment_search, container, false)
-    }
 
 }

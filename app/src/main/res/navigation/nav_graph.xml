@@ -11,4 +11,10 @@
         android:label="Home"
         tools:layout="@layout/fragment_home" />
 
+    <fragment
+        android:id="@+id/favouritesFragment"
+        android:name="com.geomecha.pricetracker.presentation.favourites.FavouritesFragment"
+        android:label="Favourites"
+        tools:layout="@layout/fragment_favourites" />
+
 </navigation>

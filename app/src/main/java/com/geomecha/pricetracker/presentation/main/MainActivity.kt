@@ -35,18 +35,14 @@ class MainActivity : AppCompatActivity(), BottomNavigationView.OnNavigationItemS
     }
 
     private fun setNavSettings() {
-        val navGraph = navController.navInflater.inflate(R.navigation.nav_graph)
-
-        if (navController.currentDestination == null) {
-            navGraph.setStartDestination(R.id.homeFragment)
-            navController.graph = navGraph
-        }
-
         binding.bottomNavigation.apply {
             setupWithNavController(navController)
-            setOnNavigationItemSelectedListener(this@MainActivity)
+            setOnItemSelectedListener { item ->
+                onNavigationItemSelected(item)
+            }
         }
     }
+
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         return true

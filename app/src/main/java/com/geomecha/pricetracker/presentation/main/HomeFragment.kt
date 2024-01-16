@@ -1,19 +1,8 @@
 package com.geomecha.pricetracker.presentation.main
 
-import android.os.Bundle
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
-import androidx.fragment.app.Fragment
-import com.geomecha.pricetracker.R
+import com.geomecha.pricetracker.core.base.presentation.BaseFragment
+import com.geomecha.pricetracker.databinding.FragmentHomeBinding
 
-class HomeFragment : Fragment() {
-
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        return inflater.inflate(R.layout.fragment_home, container, false)
-    }
+class HomeFragment : BaseFragment<FragmentHomeBinding>(FragmentHomeBinding::inflate) {
 
 }

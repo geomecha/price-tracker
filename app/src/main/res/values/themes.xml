@@ -51,4 +51,10 @@
         <item name="autoSizeMaxTextSize">12sp</item>
     </style>
 
+    <style name="ToolBarStyle" parent="Widget.MaterialComponents.Toolbar">
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">@dimen/display_h0_text_size</item>
+        <item name="android:textColor">@color/gray_700</item>
+    </style>
+
 </resources>
