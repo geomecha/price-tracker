@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Text size -->
+    <dimen name="display_h1_text_size">20sp</dimen>
+    <dimen name="display_h2_text_size">18sp</dimen>
+    <dimen name="display_h2_5_text_size">17sp</dimen>
+    <dimen name="display_h3_text_size">16sp</dimen>
+    <dimen name="display_h4_text_size">14sp</dimen>
+    <dimen name="display_h5_text_size">12sp</dimen>
+    <dimen name="display_h6_text_size">10sp</dimen>
+    <dimen name="display_h7_text_size">13sp</dimen>
+    <dimen name="display_h8_text_size">15sp</dimen>
+
+    <!-- Container size -->
+    <dimen name="container_100">100dp</dimen>
+    <dimen name="container_120">120dp</dimen>
+    <dimen name="container_140">140dp</dimen>
+    <dimen name="container_159">159dp</dimen>
+    <dimen name="container_164">164dp</dimen>
+    <dimen name="container_188">188dp</dimen>
+    <dimen name="container_200">200dp</dimen>
+    <dimen name="container_220">220dp</dimen>
+    <dimen name="container_229">229dp</dimen>
+    <dimen name="container_256">256dp</dimen>
+
+    <!-- Spacing -->
+    <dimen name="spacing_none">0dp</dimen>
+    <dimen name="spacing_sm_0">4dp</dimen>
+    <dimen name="spacing_sm_0_7">5dp</dimen>
+    <dimen name="spacing_sm_0_9">7dp</dimen>
+    <dimen name="spacing_sm_1">8dp</dimen>
+    <dimen name="spacing_sm_1_2">9dp</dimen>
+    <dimen name="spacing_sm_1_3">10dp</dimen>
+    <dimen name="spacing_sm_1_5">12dp</dimen>
+    <dimen name="spacing_sm_1_8">14dp</dimen>
+    <dimen name="spacing_sm_2">16dp</dimen>
+    <dimen name="spacing_sm_2_2">18dp</dimen>
+    <dimen name="spacing_sm_2_5">20dp</dimen>
+    <dimen name="spacing_sm_3">24dp</dimen>
+    <dimen name="spacing_sm_3_6">27dp</dimen>
+    <dimen name="spacing_sm_3_8">30dp</dimen>
+    <dimen name="spacing_sm_4">32dp</dimen>
+    <dimen name="spacing_sm_5">36dp</dimen>
+    <dimen name="spacing_md_1">40dp</dimen>
+    <dimen name="spacing_md_2">48dp</dimen>
+    <dimen name="spacing_md_2_2">50dp</dimen>
+    <dimen name="spacing_md_3">56dp</dimen>
+    <dimen name="spacing_md_4">64dp</dimen>
+    <dimen name="spacing_lg_1">72dp</dimen>
+    <dimen name="spacing_lg_2">80dp</dimen>
+    <dimen name="spacing_lg_3">88dp</dimen>
+    <dimen name="spacing_lg_4">96dp</dimen>
+    <dimen name="spacing_lg_5">144dp</dimen>
+    <dimen name="spacing_lg_6">160dp</dimen>
+    <dimen name="spacing_lg_7">168dp</dimen>
+    <dimen name="spacing_lg_8">176dp</dimen>
+
+    <!-- Spacing Negative-->
+    <dimen name="spacing_negative_sm_0">-4dp</dimen>
+    <dimen name="spacing_negative_sm_0_5">-6dp</dimen>
+    <dimen name="spacing_negative_sm_1">-8dp</dimen>
+    <dimen name="spacing_negative_sm_2">-16dp</dimen>
+    <dimen name="spacing_negative_md_3">-40dp</dimen>
+    <dimen name="spacing_negative_md_4">-64dp</dimen>
+    <dimen name="spacing_negative_lg_4">-96dp</dimen>
+
+    <!-- Elevation -->
+    <dimen name="elevation_none">0dp</dimen>
+    <dimen name="elevation_sm_1">2dp</dimen>
+    <dimen name="elevation_sm_2">4dp</dimen>
+    <dimen name="elevation_sm_3">6dp</dimen>
+    <dimen name="elevation_md_1">8dp</dimen>
+    <dimen name="elevation_md_2">12dp</dimen>
+    <dimen name="elevation_md_3">16dp</dimen>
+    <dimen name="elevation_lg_1">20dp</dimen>
+    <dimen name="elevation_lg_2">24dp</dimen>
+    <dimen name="elevation_lg_3">28dp</dimen>
+
+    <!-- Boarder -->
+    <dimen name="border_s">1dp</dimen>
+    <dimen name="border_m">2dp</dimen>
+
+    <!-- Radius -->
+    <dimen name="radius_s">4dp</dimen>
+    <dimen name="radius_m">8dp</dimen>
+    <dimen name="radius_l">16dp</dimen>
+    <dimen name="radius_l1">20dp</dimen>
+    <dimen name="radius_l2">24dp</dimen>
+    <dimen name="radius_l6">40dp</dimen>
+</resources>
