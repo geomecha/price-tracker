@@ -12,7 +12,6 @@ import com.geomecha.pricetracker.core.delegate.viewBinding
 import com.geomecha.pricetracker.databinding.ActivityMainBinding
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
-
 class MainActivity : AppCompatActivity(), BottomNavigationView.OnNavigationItemSelectedListener {
 
     private val binding by viewBinding(ActivityMainBinding::inflate)
@@ -24,8 +23,21 @@ class MainActivity : AppCompatActivity(), BottomNavigationView.OnNavigationItemS
 
     override fun onCreate(savedInstanceState: Bundle?) {
         installSplashScreen()
-
         super.onCreate(savedInstanceState)
+        setClickListeners()
+    }
+
+    private fun setClickListeners() {
+        binding.topAppBar.setOnMenuItemClickListener { menuItem ->
+            when (menuItem.itemId) {
+                R.id.profile -> {
+                    navController.navigate(R.id.profile)
+                    binding.topAppBar.title = getString(R.string.profile)
+                    true
+                }
+                else -> false
+            }
+        }
     }
 
     override fun onStart() {
@@ -47,12 +59,12 @@ class MainActivity : AppCompatActivity(), BottomNavigationView.OnNavigationItemS
         return when (item.itemId) {
             R.id.homeFragment -> {
                 navController.navigate(R.id.homeFragment)
-                binding.toolBar.title = getString(R.string.home)
+                binding.topAppBar.title = getString(R.string.home)
                 true
             }
             R.id.favouritesFragment -> {
                 navController.navigate(R.id.favouritesFragment)
-                binding.toolBar.title = getString(R.string.favourites)
+                binding.topAppBar.title = getString(R.string.favourites)
                 true
             }
             else -> false

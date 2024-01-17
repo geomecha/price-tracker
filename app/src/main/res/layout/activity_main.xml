@@ -8,18 +8,25 @@
     android:orientation="vertical"
     tools:context=".presentation.main.MainActivity">
 
-    <com.google.android.material.appbar.MaterialToolbar
-        android:id="@+id/toolBar"
-        style="@style/Widget.MaterialComponents.Toolbar.Primary"
+    <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:background="@color/white"
+        android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:title="@string/home"
-        app:titleTextColor="#99000000"
-        app:titleTextAppearance="@style/ToolBarStyle" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/topAppBar"
+            style="@style/Widget.MaterialComponents.Toolbar.Primary"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/white"
+            app:menu="@menu/top_app_bar"
+            app:title="@string/home"
+            app:titleTextAppearance="@style/ToolBarStyle"
+            app:titleTextColor="#99000000" />
+
+    </com.google.android.material.appbar.AppBarLayout>
 
     <fragment
         android:id="@+id/nav_host_fragment"

@@ -17,4 +17,12 @@
         android:label="Favourites"
         tools:layout="@layout/fragment_favourites" />
 
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.geomecha.pricetracker.presentation.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+
+
 </navigation>
